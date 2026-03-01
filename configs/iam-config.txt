@@ -1,0 +1,14 @@
+IAM Configuration Details
+
+To demonstrate role-based access control and principle of least privilege.
+
+Project Administrator:
+Assigned Owner role for full resource control.
+
+Restricted User:
+Assigned Compute Viewer role.
+Restricted User Capabilities:
+- Can view Compute Engine resources.
+- Cannot modify or delete VM instances.
+- Cannot alter autoscaling configuration.
+- Cannot change firewall settings.

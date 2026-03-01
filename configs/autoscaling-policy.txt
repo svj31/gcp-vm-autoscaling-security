@@ -1,0 +1,17 @@
+Autoscaling Policy Configuration
+
+Managed Instance Group: vcc-managed-group
+Region: asia-south1
+Zone: asia-south1-a
+
+Metric Used: CPU Utilization
+Target CPU Threshold: 60%
+
+Minimum Number of Instances: 1
+Maximum Number of Instances: 3
+
+Initialization Period: 60 seconds
+
+Observations:
+When CPU usage exceeded 60%, a new instance was created automatically.
+When CPU dropped below threshold, extra instances were removed.

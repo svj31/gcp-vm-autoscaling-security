@@ -1,0 +1,12 @@
+Firewall Configuration Details
+
+Network: Default VPC
+
+Rules Implemented:
+1. HTTP (Port 80): Allowed for public access.
+2. HTTPS (Port 443): Allowed for secure web access.
+3. SSH (Port 22): Restricted to specific public IP only, allowed only my device's puclic IP.
+4. Custom Firewall Rule: Allow only the VM instances with web-server tag to get HTTP traffic
+
+Security Principle Applied:
+Only necessary ports are exposed to the internet.
