@@ -70,7 +70,6 @@ Restricted users can view resources of compute engine but cannot modify or delet
 
 ### Firewall
 
-- HTTP (Port 80) allowed
 - HTTPS (Port 443) allowed
 - SSH (Port 22) restricted to specific public IP
 - Custom Firewall Rule to allow only the VM instances with web-server tag to get HTTP traffic
